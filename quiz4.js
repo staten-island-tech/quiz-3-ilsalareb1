@@ -33,4 +33,9 @@ const dejInfo = {
 
 console.log(dejInfo.getDejBMI());
 
-console.log(`${dejInfo.fullName} has a higher BMI of ${dejInfo.getDejBMI()}`);
+if (robInfo.getRobBMI() < dejInfo.getDejBMI()) {
+    console.log(`${dejInfo.fullName} has a higher BMI of ${dejInfo.getDejBMI()}`);
+} else if (robInfo.getRobBMI() > dejInfo.getDejBMI()){
+    console.log(`${robInfo.fullName} has a higher BMI of ${robInfo.getRobBMI()}`)
+}
+
